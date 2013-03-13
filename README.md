@@ -1,4 +1,1 @@
-linux.usc.edu
-=============
-
-USCLUG Website
+# USCLUG Website
