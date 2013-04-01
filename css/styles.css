@@ -1,0 +1,21 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+
+body {
+  background-color: #242424;
+  font-family: 'Ubuntu';
+}
+
+.logo {
+  float: left;
+  font-size: 20px;
+  color: #f08080;
+  margin-right: 10px;
+  line-height: 35px;
+  text-decoration: none;
+}
+
+.logo:hover {
+  text-decoration: none;
+  color: #8ac6f2;
+}
+
