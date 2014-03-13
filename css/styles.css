@@ -1,21 +1,12 @@
-@import url(http://fonts.googleapis.com/css?family=Ubuntu);
-
 body {
-  background-color: #242424;
-  font-family: 'Ubuntu';
+	margin-top: 80px; /* 100px is double the height of the navbar - I made it a big larger for some more space - keep it at 50px at least if you want to use the fixed top nav */
 }
 
-.logo {
-  float: left;
-  font-size: 20px;
-  color: #f08080;
-  margin-right: 10px;
-  line-height: 35px;
-  text-decoration: none;
+footer {
+	margin: 50px 0;
 }
 
-.logo:hover {
-  text-decoration: none;
-  color: #8ac6f2;
+.logo { 
+	float: right;
+	padding-top: 5px;
 }
-

@@ -1,85 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
-    <title>USC LUG</title>
-    <link href="./css/bootstrap.css" rel="stylesheet">
-    <!-- <link href="./css/bootstrap-responsive.css" rel="stylesheet"> -->
-    <link rel="stylesheet" type="text/css" href="./css/styles.css">
-  </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-  <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
+    <title>USCLUG</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Add custom CSS here -->
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- begin of header --> 
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
-          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="logo" href="index.html">USC LUG</a>
-          <div class="nav-collapse collapse">
-            <ul class="nav">
-              <li class="active"><a href="index.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="people.html">People</a></li>
-              <li><a href="events.html">Events</a></li>
-            </ul>
-            <img class="pull-right" style="height: 30px; margin-top: 5px;" src="./img/usc-shield.png">
-          </div><!--/.nav-collapse -->
-        </div>
-      </div>
-    </div>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">USC Linux Users Group</a>
+            </div>
 
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a>
+                    </li>
+                    <li><a href="about/">About</a>
+                    </li>               
+                    <li><a href="resources/">Resources</a>
+                    </li>
+                </ul>
+                <a class="navbar-brand logo" href="/"><img src="images/usc.png"></a>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- end of header --> 
     <div class="container">
 
-      <!-- Main hero unit for a primary marketing message or call to action -->
-      <div class="hero-unit">
-        <h2>Welcome to the USC Linux Users Group Website</h2>
-        <p>
-          Who are we: We're a group of CS students passionate about everything Linux! 
-          We'll be hosting several workshops related to Linux and software development this semester.    
-        </p>
-        <a href="https://mymaillists.usc.edu/sympa/info/usclug-l">Subscribe to USC-LUG mailing list</a> <br>
-        <a href="https://www.facebook.com/groups/usclug/">Join the Facebook group</a>
+        <div class="row">
+            <div class="col-sm-8">
 
-        <hr style="border-color:#555">
+                <!-- blog entry -->
+                <h2><a href="#">Using the Command Line: The Basics, Tips and Tricks</a>
+                </h2>
 
-        <h3>USCLUG goes to SoCal Linux Expo</h3>
-        <!-- <h4></h4> -->
-        <h4>Event Details</h4>
+                <!-- <hr> -->
+                <p><i class="fa fa-calendar"></i> Time: Thursday March 13, 2014 6:30-8pm</p>
+                <p><i class="fa fa-globe"></i> Location: THH102</p>
+                <p><i class="fa fa-facebook-square"></i> <a href="https://facebook.com/events/1431168193795022">Facebook Event</a></p>
+               
+                <p>Interactive workshop where you learn how to use the command line (terminal) in Linux and Unix (like Mac OS X) systems. You'll learn about the basics that every developer and programmer needs, and learn the commands you need to be productive in Linux and Unix environments.</p>
 
-        <p>
-          USC Linux Users Group will be heading to "SCALE: SoCal Linux Expo" on February 21-23, 2014 (this weekend!)
-        </p>
+                <hr>
 
-        <p>
-          What: USCLUG (the people who brought you GIT and AWS cloud hosting workshops) will be heading to SCALE, the first and biggest open-source conference in Southern California. With lots of technical workshops, and a career expo to boot, there's lots of options for people interested and involved in software development and open-source. Sessions include workshops on OpenStack, PostgreSQL, Chef, Puppet, Cloud Technologies, DevOps, System Administration, Hardware Hacking, Security, etc. 
-        </p>
+                <!-- second blog entry -->
+                <h2><a href="#">"GIT: Git Isn't Tough": Git Version Control Workshop</a>
+                </h2>
 
-        <p>
-          Everyone in the USC community is welcome, including students, faculty, staff and friends!
-          Use the discount code 'usc' to get 50% off! (Final total cost will be $35)
-        </p>
+                <!-- <hr> -->
+                <p><i class="fa fa-calendar"></i> Time: Thursday October 24, 2013 7-9pm</p>
+                <p><i class="fa fa-globe"></i> Location: SLH200</p>
+                <p><i class="fa fa-facebook-square"></i> <a href="https://facebook.com/events/452640964845019">Facebook Event</a></p>
+               
+                <p>Interactive workshop where you learn about the popular software Git and the workflow behind it, and how to use version control in a professional and collaborative setting.</p>
+                <hr>
+
+                <!-- third blog entry -->
+                <h2><a href="#">"Building a MEAN Web Stack": AWS Cloud Hosting Workshop</a>
+                </h2>
+
+                <!-- <hr> -->
+                <p><i class="fa fa-calendar"></i> Time: Thursday October 3, 2013 7-9pm</p>
+                <p><i class="fa fa-globe"></i> Location: ZHS159</p>
+                <p><i class="fa fa-facebook-square"></i> <a href="https://www.facebook.com/events/588878991172344">Facebook Event</a></p>
+               
+                <p>Interactive workshop where you learn about hosting javascript apps on the cloud (Amazon EC2).</p>
+
+                <!-- pager -->
+                <ul class="pager">
+                    <li class="previous"><a href="#">&larr; Older</a>
+                    </li>
+                    <li class="next"><a href="#">Newer &rarr;</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="col-sm-4">
+
+                <!-- /well -->
+                <div class="well">
+
+                    <h4><i class="fa fa-linux"></i> USC Linux Users Group</h4>
+                    <p>We're a group of CS students passionate about everything Linux and Open Source!</p>
 
 
-        <p>
-          You're free to stop by just one of the days, or even all three, so we hope to see you there! Feel free to comment below if you have any questions, or need to coordinate carpools. :)
-        </p>
-      
+                    <hr>
+                    <h4><i class="fa fa-calendar"></i> Upcoming Events</h4>
+                    <p><a href='#'>Using the Command Line: The Basics, Tips and Tricks</a> (March 13, 6:30-8pm)</p>
+                    <hr>
+                    <h4>Contact Us</h4>
 
-        Website: <a href="https://www.socallinuxexpo.org/scale12x">https://www.socallinuxexpo.org/scale12x</a>
-        <p>
-          Check out the workshop schedule at <a href="https://www.socallinuxexpo.org/scale12x/schedule">https://www.socallinuxexpo.org/scale12x/schedule</a>.
-        </p>
+                    <p><i class="fa fa-envelope"></i> <a href='mailto:usclinux@gmail.com'>usclinux@gmail.com</a></p>
+                    <p><i class="fa fa-envelope-o"></i> <a href='https://mymaillists.usc.edu/sympa/info/usclug-l'>Mailing List</a></p>
 
-        <hr style="border-color:#555">
+                    <p><i class="fa fa-github-alt"></i> <a href="https://github.com/usclug">Github</a></p>
+                    <p><i class="fa fa-facebook-square"></i> <a href='https://www.facebook.com/groups/usclug/'>Facebook</a></p>
+                    <p><i class="fa fa-twitter"></i> <a href='https://twitter.com/usclug'>Twitter</a></p>
+                    <p><i class="fa fa-youtube"></i> <a href='http://www.youtube.com/channel/UCCVwDsHsxhqSPk_XmstusiA/'>Youtube</a></p>
+                    <p><i class="fa fa-flickr"></i> <a href='http://www.flickr.com/photos/105177175@N05/'>Flickr</a></p>
+                    <p><i class="fa fa-comments"></i> <a href='http://webchat.freenode.net/?channels=usclug'>IRC #usclug on freenode</a></p>
 
-        <h3> Pictures from "Building a MEAN Web Stack" </h3>
-        <!-- hacks -->
-        <iframe style="margin-top: 40px; margin-left: 155px" src="http://www.flickr.com/slideShow/index.gne?group_id=&user_id=&set_id=72157636482500285&text=" frameBorder="0" width="500" height="500" scrolling="no"></iframe>
-      </div>
-      
-    </div> <!-- /container -->
-  </body>
+ 
+                    
+                </div>
+                <!-- /well -->
+
+            </div>
+        </div>
+
+        <hr>
+
+        <footer>
+            <div class="row">
+                <div class="col-sm-12">
+                    <p>Copyright &copy; USC Linux Users Group 2014</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
 </html>
