@@ -10,3 +10,13 @@ footer {
 	float: right;
 	padding-top: 5px;
 }
+
+#black a{
+  color: #000000;
+  text-decoration: none;
+}
+#black a:hover,
+#black a:focus {
+  color: #FFCC00;
+  text-decoration: underline;
+}
